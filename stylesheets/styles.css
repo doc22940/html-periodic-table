@@ -193,10 +193,10 @@ h1{
 /* /////////////////////////////////////FROM PAGE(INLINE)///////////////////////////////////////// */
 
 html {
-  background: #787878;
+  background: #222;
   /* Old browsers */
-  background: radial-gradient(ellipse at center, #454545 0%, #787878 100%);
-  background-size: cover;
+ /*  background: radial-gradient(ellipse at center, #454545 0%, #787878 100%);
+ background-size: cover; */
   height: 100%;
   font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
