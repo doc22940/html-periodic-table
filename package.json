@@ -6,7 +6,7 @@
     "start": "npm run build",
     "build": "node ./index.js"
   },
-  "author": "Mike Riethmuller",
+  "author": "Selvam Elumalai",
   "license": "none",
   "dependencies": {
     "handlebars": "^4.0.5",
