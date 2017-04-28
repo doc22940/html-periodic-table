@@ -113,7 +113,7 @@ body{
 	line-height: 3rem;
 	/* margin: 2rem auto;
 	width: 60%; */
-	margin: 2em auto 3em auto;
+	margin: 0.5em auto 2em auto;
 	padding: 0;
 	list-style-type: none;
 	text-align: center;
@@ -264,7 +264,7 @@ h1 {
     position: relative;
     padding-left: 20px;
     cursor: pointer; 
-    padding:.5em .5em .5em 2.5em;
+    padding:.3em .5em .3em 2.5em;
     border-radius:3px;
     background:grey;
     }
@@ -276,7 +276,8 @@ h1 {
     top: 50%;
     transform: translate(0, -50%);
     width: 16px;
-    height: 16px; } }
+    height: 16px; 
+    border-radius:3px} }
 
 .description {
   padding: 1em;
