@@ -1,21 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 
 *{margin: 0; padding:0; box-sizing: border-box;}
-html{ height: 100%; line-height: 1.5; font-size: 62.5%; /* =10px */ font-family:  Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;}
+html{height: 100%; line-height: 1.5; font-size: 62.5%;/*=10px*/font-family:  Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;}
 
 body{
-	/* background: #7d7e7d; Old browsers
-	background: -moz-radial-gradient(center, ellipse cover,  #EAEAEA 0%, #222 100%); FF3.6+
-	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#EAEAEA), color-stop(100%,#222)); Chrome,Safari4+
-	background: -webkit-radial-gradient(center, ellipse cover,  #EAEAEA 0%,#222 100%); Chrome10+,Safari5.1+
-	background: -o-radial-gradient(center, ellipse cover,  #EAEAEA 0%,#222 100%); Opera 12+
-	background: -ms-radial-gradient(center, ellipse cover,  #EAEAEA 0%,#222 100%); IE10+
-	background: radial-gradient(ellipse at center,  #EAEAEA 0%,#222 100%); W3C
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EAEAEA', endColorstr='#222',GradientType=1 ); IE6-9 fallback on horizontal gradient
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover; */
 	font-size: 12px;
 	font-size: 1.2rem;
 }
@@ -53,6 +41,9 @@ body{
 	border-radius: 10%;
 	border: solid 5px rgba(255,255,255, .2);
 }
+
+.descriptions p{font-size:2rem;}
+
 #container{
 	width: 90%;
 	max-width: 1200px;
@@ -188,15 +179,8 @@ h1{
 }
 
 
-
-
-/* /////////////////////////////////////FROM PAGE(INLINE)///////////////////////////////////////// */
-
 html {
   background: #222;
-  /* Old browsers */
- /*  background: radial-gradient(ellipse at center, #454545 0%, #787878 100%);
- background-size: cover; */
   height: 100%;
   font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
@@ -554,6 +538,4 @@ h1 {
 .hover-group-web-components .element.group-web-components {
   opacity: 1; }
 
-  .descriptions p{font-size:2rem;}
-
-  code{font-size:2.2rem; background: rgba(234, 234, 234, 0.67); padding: 0 0.25em; border-radius:3px}
+code{font-size:2.2rem; background: rgba(234, 234, 234, 0.67); padding: 0 0.25em; border-radius:3px}
